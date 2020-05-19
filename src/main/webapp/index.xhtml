@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<ui:composition template="/WEB-INF/template/base.xhtml"
+                xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:p="http://primefaces.org/ui"
+                xmlns:ui="http://java.sun.com/jsf/facelets">
+    <ui:define name="content">
+        <h:outputText value="Notificaciones"/>
+        <p:dataTable id="notifications">
+            <p:column id="id" headerText="Id">
+
+            </p:column>
+
+            <p:column id="mensaje" headerText="Mensaje">
+
+            </p:column>
+        </p:dataTable>
+    </ui:define>
+</ui:composition>
