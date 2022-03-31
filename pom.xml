@@ -21,7 +21,7 @@
     </build>
 
     <properties>
-        <springframework.version>5.3.14</springframework.version>
+        <springframework.version>5.3.18</springframework.version>
         <mssql-jdbc.version>8.2.2.jre8</mssql-jdbc.version>
         <jsf.version>2.2.20</jsf.version>
         <servlet-api.version>4.0.1</servlet-api.version>
